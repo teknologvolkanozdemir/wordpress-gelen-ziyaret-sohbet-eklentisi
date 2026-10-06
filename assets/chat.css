@@ -1,0 +1,13 @@
+.zs-chat{position:fixed;right:16px;bottom:16px;z-index:99999;font:16px/1.5 sans-serif;color:#111}
+.zs-toggle,.zs-form button,.zs-close{background:#0b57d0;color:#fff;border:2px solid #0b57d0;border-radius:6px;padding:8px 14px;font:inherit;cursor:pointer}
+.zs-close{background:#fff;color:#0b57d0;margin-top:8px}
+.zs-chat button:focus-visible,.zs-chat textarea:focus-visible,.zs-log:focus-visible{outline:3px solid #000;outline-offset:2px;box-shadow:0 0 0 5px #fff}
+.zs-panel{background:#fff;border:2px solid #333;border-radius:8px;padding:12px;width:min(340px,calc(100vw - 32px));margin-bottom:8px}
+.zs-title{font-size:1.1em;margin:0 0 8px}
+.zs-log{height:220px;overflow-y:auto;border:1px solid #555;padding:8px;margin-bottom:8px}
+.zs-msg{margin:0 0 8px;padding:6px 8px;border-radius:6px;background:#eee;word-wrap:break-word}
+.zs-msg.zs-visitor{background:#dce8ff}
+.zs-form label{display:block;font-weight:600}
+.zs-form textarea{width:100%;box-sizing:border-box;margin:4px 0 8px;font:inherit;border:2px solid #333}
+.zs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:no-preference){.zs-panel{transition:opacity .2s}}
